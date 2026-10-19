@@ -71,11 +71,20 @@ public class JavaApplicationProject1 {
     
 }
 
-    private static class RegistratonLogin extends RegistrationLoginApp {
-
+  private static class RegistratonLogin extends RegistrationLoginApp {
         public RegistratonLogin(String username, String password, String cellPhone, String firstName, String lastName) {
         }
-    }
-}
+   Messages messages = new Messages(); 
+   
+
+    private static class Messages {
+
+        public Messages() {
+        }
+    } 
+  }
+} 
     
+
+
 
